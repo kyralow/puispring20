@@ -1,0 +1,121 @@
+header {
+	background-color: white; 
+}
+
+.header navheader {
+	float: right;
+  	display: inline-block;
+}
+
+.navheader a {
+	float: right;
+	line-height: 50px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-right: 70px;
+	color: black;
+	text-decoration: none;
+}
+
+.navheader selected {
+	float: right;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 15px;
+	margin-right: 70px;
+	text-decoration: underline;
+}
+
+.header img {
+  float: left;
+  display: inline-block;
+  background: #555;
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+headrect {
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	font-family:  'Poppins', sans-serif;
+}
+
+
+.body total {
+	position: absolute;
+	width: 199px;
+	height: 47px;
+	left: 78px;
+	top: 115px;
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 46px;
+	color: #000000;	
+}
+
+.body underline {
+	position: absolute;
+	width: 190px;
+	height: 0px;
+	left: 78px;
+	top: 160px;
+	border: 1.5px solid #000000;
+}
+
+.body name {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+}
+
+.body price {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+
+
+.body sort {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 37px;
+	color: #666464;
+	position: absolute;
+	width: 93px;
+	height: auto;
+	left: 1146px;
+	top: 124px;
+}
+
+.body sortoption {
+	position: absolute;
+	width: 63px;
+	height: auto;
+	left: 1266px;
+	top: 124px;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 37px;
+	text-align: right;
+	color: #666464;
+}
+
+

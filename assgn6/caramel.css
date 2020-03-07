@@ -1,0 +1,152 @@
+header {
+	background-color: white; 
+}
+
+.header navheader {
+	float: right;
+  	display: inline-block;
+}
+
+.navheader a {
+	float: right;
+	line-height: 50px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-right: 70px;
+	color: black;
+	text-decoration: none;
+}
+
+.navheader selected {
+	float: right;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 15px;
+	margin-right: 70px;
+	text-decoration: underline;
+}
+
+.header img {
+  float: left;
+  display: inline-block;
+  background: #555;
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+headrect {
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	font-family:  'Poppins', sans-serif;
+}
+
+.body productname {
+	position: absolute;
+	width: 581px;
+	height: 56px;
+	left: 720px;
+	top: 135px;
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 50px;
+	color: #000000;
+
+}
+
+.body price {
+	position: absolute;
+	width: 105px;
+	height: 36px;
+	left: 720px;
+	top: 188px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;	
+}
+
+.body descri {
+	position: absolute;
+	width: 600px;
+	height: 120px;
+	left: 720px;
+	top: 247px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+
+.body options {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 33px;
+	color: #000000;
+}
+
+
+/* dropdown button */
+.dropbtn {
+	border: 1.5px solid #8B6140;
+	box-sizing: border-box;
+	border-radius: 4px;
+	color: black;
+	font-size: 19px;
+	cursor: pointer;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	color: #8B6140;
+	text-align: left;
+	padding-left: 18px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ffffff;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* dropdown menu */
+.dropdown-content {
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* individual options in dropdown menu */
+.dropdown-content b {
+  font-size: 18px;
+  color: black;
+  padding: 12px 18px;
+  font-weight: normal;
+  display: block;
+}
+
+/* on hover, dropdown options change */
+.dropdown-content b:hover {color: white; weight: 600; background-color: #8B6140}
+
+/* display dropdown menu */
+.show {display:block;}
+
+

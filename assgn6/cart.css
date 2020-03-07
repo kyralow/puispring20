@@ -1,0 +1,162 @@
+header {
+	background-color: white; 
+}
+
+.header navheader {
+	float: right;
+  	display: inline-block;
+}
+
+.navheader a {
+	float: right;
+	line-height: 50px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-right: 70px;
+	color: black;
+	text-decoration: none;
+}
+
+.navheader selected {
+	float: right;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 15px;
+	margin-right: 70px;
+	text-decoration: underline;
+}
+
+.header img {
+  float: left;
+  display: inline-block;
+  background: #555;
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+headrect {
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	font-family:  'Poppins', sans-serif;
+}
+
+.body productname {
+	position: absolute;
+	width: 455px;
+	height: 44px;
+	left: 376px;
+	top: 199px;
+	font-weight: 700;
+	font-size: 29px;
+	line-height: 43px;
+	color: #000000;
+
+}
+
+
+.body total {
+	position: absolute;
+	width: 455px;
+	height: 47px;
+	left: 78px;
+	top: 115px;
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 46px;
+	color: #000000;	
+}
+
+.body underline {
+	position: absolute;
+	width: 280px;
+	height: 0px;
+	left: 78px;
+	top: 160px;
+	border: 1.5px solid #000000;
+}
+
+.body options {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 33px;
+	color: #000000;
+}
+
+.body chosen {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #8B6140;
+}
+
+.body productprice {
+	position: absolute;
+	width: 120px;
+	height: 44px;
+	left: 1164px;
+	top: 263px;
+
+	font-weight: 600;
+	font-size: 29px;
+	line-height: 43px;
+}
+
+.body productline {
+	position: absolute;
+	width: 1275px;
+	height: 0px;
+	left: 78px;
+	top: 438px;
+
+	border: 1px solid #DADADA;
+}
+
+.body subtotaltax {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.body subtotaltaxprice {
+	font-size: 25px;
+	line-height: 37px;
+}
+
+.body finaltotal {
+	position: absolute;
+	width: 87px;
+	height: auto;
+	left: 1051px;
+	top: 576px;
+
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.body finalprice {
+	position: absolute;
+	width: 124px;
+	height: auto;
+	left: 1162px;
+	top: 570px;
+
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 57px;	
+}

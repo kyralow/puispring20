@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="caramel.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Podkova&display=swap" rel="stylesheet">
+	<script src="main.js" type="text/javascript"></script>
+</head>
+
+<body> 
+		<headrect>
+			<div class="header">
+  			<img src="bunlogo.jpg"/>
+			<div class="navheader">
+				<a href="cart.html">cart</a>
+    			<selected href="products.html">products</selected>
+    			<a href="index.html">about</a>
+			</div>
+		</div>
+		</headrect>
+
+		<!-- cinnamon roll pic -->
+		<img style= "position: absolute; top:140px; left:60px; width:600px; height:auto" src="caramel.jpg" >
+
+		<div class="body">
+			<productname> Caramel Pecan Cinnamon Roll</productname>
+			<price> $5/each</price>
+			<descri> We’ve added a caramel twist to our beloved Classic Roll. Layers of our cinnamon are wrapped in warm dough and swirled with heavenly caramel frosting. Sprinkled with a splash of pecans, you’re sure to love every last bite.</descri>
+			<options style = "position: absolute; top: 395px; left: 720px"> Glazing: </options>
+			<options style = "position: absolute; top: 452px; left: 720px"> Quantity: </options>
+		</div>
+
+		<!-- glazing dropdown -->
+		<div class="dropdown">
+		  <button onclick="glazing()" id = "btn1" class="dropbtn" style = "position: absolute; top: 390px; left: 845px; width: 300px; height: 45px;"></button>
+		  <div id="glazingdropdown" class="dropdown-content" style =  "position: absolute; top: 439px; left: 845px; width: 300px; height: 200px;">
+		    <b onclick = "selectglaze1()">None</b>
+		    <b onclick = "selectglaze2()">Sugar-milk</b>
+		    <b onclick = "selectglaze3()">Vanilla-milk</b>
+		    <b onclick = "selectglaze4()">Double-chocolate</b>
+		  </div>
+		</div>
+
+		<!-- quantity dropdown -->
+		<div class="dropdown">
+		  <button onclick="quantity()" id="btn2" class="dropbtn" style = "position: absolute; top: 447px; left: 845px; width: 220px; height: 45px;"></button>
+		  <div id="quantitydropdown" class="dropdown-content" style = "position: absolute; top: 496px; left: 845px; width: 220px; height: 200px;">
+		    <b onclick = "selectroll1()">1 roll - $5</b>
+		    <b onclick = "selectroll3()">3 rolls - $14</b>
+		    <b onclick = "selectroll6()">6 rolls - $26</b>
+		    <b onclick = "selectroll12()">12 rolls - $50</b>
+		  </div>
+		</div>
+
+		<!-- add to cart, button changes to reflect "added to cart", number of items in cart reflected in nav bar beside "cart" -->
+		<img id = "cart" style= "position: absolute; top:535px; left: 800px; width:400px; height:auto" src="addcart.jpg" onclick = "added()">
+		<img id = "newcart" style = "position: absolute; top: 26px; left: 1376px; width: 22px; height: auto">
+
+</body>
+
+
+</html>
