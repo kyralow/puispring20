@@ -160,3 +160,9 @@ body {
 	font-size: 35px;
 	line-height: 57px;	
 }
+
+.body changes {
+	font-size: 16px;
+	line-height: 30px;
+	color: #ACACAC
+}
