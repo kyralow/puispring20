@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- styles -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+	
+</head>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-sm justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link"id = "unselected" href="food.html">food </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id = "selected" href="travel.html">travel</a>
+    </li>
+    <li class = "nav-item">
+    	<a class = "nav-link" id="logo" href="index.html"> KYRA'S </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="unselected" href="fun.html">fun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id= "unselected" href="chat.html">chat</a>
+    </li>
+  </ul>
+</nav>
+
+<body>
+
+    <!-- grid row-->
+
+    <div class="row" style = "padding-left: 100px; padding-right: 100px; padding-top: 50px">
+
+      <div class="col-lg-6 col-md-6 mb-3 ml-0 mx-auto">
+        <div class = "first">
+          <p id = "name">snow town, harbin </p>
+        </div>
+
+        <div class = "second"> 
+          <p>Dec 2019 </p>
+          <p>My family and I visited Harbin for our winter vacation in Dec 2019. It was incredibly cold everyday, ranging from -9°C (16°F) to -30°C (-22°F). We were wrapped up in our warmest jackets, but had to buy gloves, pants, hats, masks, boots from Harbin beacuse whatever we brought just wasn't warm enough (not prepared! and the stuff they produce is inevitably better equipped for those colld conditions). It was such a different and eye-opening experience and one of my favorite places I visited was the Snow Town. It was a gorgeous winter wonderland.<p>
+
+          <p>The village is located about 280 kilometers away from Harbin, the capital city of Heilongjiang Province and is at an elevation of 1,500 meters. It has such pure snow and beautiful snowscapes - high mountains, local traditional wooden houses, animals, trees. When the sun sets (which is pretty early in the winter), the place gets a completely new look with colorful lights. Houses are covered under the thick snow and decorated with red lanterns which are lit at night. Rows of houses and courtyards are blanketed by pristine white snow, giving each house its own unique shape. Even in such cold weather, the 500-meter-long Xueyun Street (which is the town's central street and is lined with grocery stores, restaurants, hotels and theaters) is bustling with people - shop owners promoting their goods, restaurants filled with people, kids playing around in the snow - a sight to behold. We even saw a bubble tea shop (Gongcha)! </p>
+
+          <p> We got the chance to stay there for a night and experienced sleeping on the traditional heated kang bed, a common bed heated with fire underneath. It wasn't as uncomfortable as I thought it would be. There are also a bunch of activities to do in the Snow Town, such as visiting Yangcao Mountain (which has absolutely spectacular views - will write about this in another post), watching traditional shows and trying out local food (both street food and restaurant food!) Highly recommend anyone who's visiting Harbin to make a trip to Snow Town - you won't be disappointed!</p>
+
+          <!-- external source for more info -->
+          <a href = "https://www.chinadiscovery.com/heilongjiang/harbin/china-snow-town.html"> 
+            <div class="second"> 
+              <p style="padding-top: 30px">click here to find out more </p> 
+            </div> 
+          </a>
+        </div>
+
+      </div>
+
+      <!-- grid column -->
+      <div class="col-lg-3 col-md-3 mb-3 ml-0 mx-auto">
+        <div class="first">
+	        <img src="assets/travel/travel2.jpg" class="img-fluid" style ="padding-top: 30px; padding-left:10px">
+          <img src="assets/travel/specific3.jpg" class="img-fluid" style ="padding-top: 30px; padding-left:10px">
+        </div>
+      </div>
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-3 mb-3 ml-0 mx-auto">
+      	<div class="first">
+	        <img src="assets/travel/specific4.jpg" class="img-fluid" style ="padding-top: 30px">
+          <img src="assets/travel/specific1.jpg" class="img-fluid" style ="padding-top: 30px">
+          <img src="assets/travel/specific2.jpg" class="img-fluid" style ="padding-top: 30px">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- scrollReveal: class "first" revealed first, followed by "second" -->
+		<script>
+			window.sr = ScrollReveal();
+			sr.reveal('.first', {duration: 1000, origin:'bottom', distance:'100px'})
+			sr.reveal('.second', {duration: 1000, delay: 200, origin:'bottom', distance:'200px'})
+		</script>
+
+</body>
+
+</html>

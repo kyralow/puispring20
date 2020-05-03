@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+</head>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-sm justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link"id = "unselected" href="food.html">food </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id = "unselected" href="travel.html">travel</a>
+    </li>
+    <li class = "nav-item">
+      <a class = "nav-link" id="logo" href="index.html"> KYRA'S </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="unselected" href="fun.html">fun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id= "selected" href="chat.html">chat</a>
+    </li>
+  </ul>
+</nav>
+
+<body>
+
+  <!-- contact form with name, email and message fields as well as a submit button -->
+  <div class = "first"> 
+    <div class="container">
+      <!-- after clicking submit, directed to thanks.html page -->
+      <form action="thanks.html">
+
+        <label for="formname">I'm...</label>
+        <input type="text" id="formname" placeholder="Hi! What's your name?">
+
+        <label for="email">My email is...</label>
+        <input type="text" id="email" placeholder="How can I contact you?">
+
+        <label for="message">My message...</label>
+        <textarea id="message" placeholder="Tell me about anything!" style="height:170px"></textarea>
+
+        <input type="submit" id = "submitbutton">
+
+      </form>
+    </div>
+  </div>
+
+  <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.first', {duration: 1000, origin:'bottom', distance:'100px'})
+  </script>
+
+</body>
+
+</html>
